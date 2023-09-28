@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="navegacion">
+    <p class="navegacion-titulo">
+      Mantenimiento de docentes 👉
+      <span id="nombreUsuario">Cargando...</span> 👈
+    </p>
+    <div class="perfil">
+      <picture class="perfil-contenedor-imagen">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtJD5pNz8YN7LMAt352xoJZjfbnmbZrcns3ZdALXdzxTRet-22qg6GKFB-Nt8wwbu79Vg&usqp=CAU"
+          alt="" class="perfil-imagen">
+      </picture>
+
+      <div class="perfil-acciones">
+        <button class="perfil-acciones-btn" id="btnCerrarSesion">Cerrar sesion</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="app">
+
+    <!-- DivTable.com -->
+  </div>
+  <div class="btnCrearDocenteContainer">
+    <button class="btnCrearDocente" id="abrirModalCrearDocente">Crear usuario</button>
+  </div>
+  <!-- modal crear docente -->
+  <section class="modalCrear" id="modalCrearDocente">
+    <form class="form" id="formDocente" method="get">
+      <h3 class="form-titulo">Crear docente</h3>
+      <input type="text" required placeholder="nombre" name="nombre">
+      <input type="text" required placeholder="apellido" name="apellido">
+      <input type="text" required placeholder="direccion" name="direccion">
+      <input type="text" required placeholder="distrito" name="distrito">
+      <input type="text" required placeholder="especialidad" name="especialidad">
+      <input type="text" required placeholder="edad" name="edad">
+      <input type="text" required placeholder="sueldo" name="sueldo">
+      <button id="btnCrearDocente">Crear docente</button>
+    </form>
+  </section>
+</body>
+
+<script src="./js/index.js" type="module"></script>
+
+</html>
