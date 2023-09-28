@@ -20,7 +20,7 @@ formularioRegistrar.addEventListener('submit', (evento) => {
   guardarEnLocalStorage("usuarios", otrosUsuarios)
   formularioRegistrar.reset()
   alert("usuario registrado")
-  window.location.href = "/index.html"
+  window.location.href = "../../index.html"
 })
 
 

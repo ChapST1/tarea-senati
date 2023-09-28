@@ -146,7 +146,7 @@ function crearTablaDocentes() {
 
 function cerrarSesion() {
   guardarEnLocalStorage("estaLogin", false)
-  window.location.href = '/index.html'
+  window.location.href = '../../index.html'
 }
 
 
