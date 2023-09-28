@@ -11,7 +11,7 @@ formularioLogin.addEventListener('submit', (evento) => {
 
   if (esCorrecto) {
     alert("credenciales correctas")
-    window.location.href = `./paginas/app/index.html?usuario=${esCorrecto.nombre}&id=${esCorrecto.id}`
+    window.location.href = `../paginas/app/index.html?usuario=${esCorrecto.nombre}&id=${esCorrecto.id}`
     guardarEnLocalStorage("estaLogin", true)
   } else {
     alert("credenciales incorrectas")
